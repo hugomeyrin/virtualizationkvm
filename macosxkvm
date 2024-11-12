@@ -200,3 +200,10 @@ These Virtual Hackintosh systems are not intended to replace the genuine physica
 Personally speaking, this repository has been a way for me to 'exit' the Apple ecosystem. It has helped me to test and compare the interoperability of Canon CanoScan LiDE 120 scanner, and Brother HL-2250DN laser printer. And these devices now work decently enough on modern versions of Ubuntu (Yay for free software). Also, a long time back, I had to completely wipe my (then) brand new MacBook Pro (Retina, 15-inch, Late 2013) and install Xubuntu on it - as the OS X kernel kept crashing on it!
 
 Backstory: I was a (poor) student in Canada in a previous life and Apple made my work on cracking Apple Keychains a lot harder than it needed to be. This is how I got interested in Hackintosh systems.
+
+
+just to ajust properly the mouse working properly
+
+edit  basic.sh
+sudo nano basic.sh
+Try using an absolute positioning device: replace -device usb-mouse with -device usb-tablet in basic.sh
